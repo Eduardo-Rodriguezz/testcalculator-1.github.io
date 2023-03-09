@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Calculadora 2.0</title>
+</head>
+<body onload="init()">
+    <div class="contenedor">
+
+     <fieldset>
+        <h4>Calculadora Kmus 2.0c</h4>
+        <div id="pantalla">
+            <span id="op"></span>
+            <span id="screen"></span>
+        </div>
+        <div class="fila">
+        <button class="botons" id="siete">7</button>
+        <button class="botons" id="ocho">8</button>
+        <button class="botons" id="nueve">9</button>
+        <button class="botons" id="divide">/</button>
+    </div>
+    <div class="fila">
+        <button class="botons" id="cuatro">4</button>
+        <button class="botons" id="cinco">5</button>
+        <button class="botons" id="seis">6</button>
+        <button class="botons" id="multiplicacion">x</button>
+    </div>
+    <div class="fila">
+        <button class="botons" id="uno">1</button>
+        <button class="botons" id="dos">2</button>
+        <button class="botons" id="tres">3</button>
+        <button class="botons" id="resta">-</button>
+    </div>
+        <div class="fila">
+        <button class="botons" onclick="limpiar()">C</button>
+        <button class="botons" id="cero">0</button>
+        <button class="botons" id="igual">=</button>
+        <button class="botons" id="suma">+</button>
+    </div>
+     </fieldset>
+    </div>
+</body>
+</html>
